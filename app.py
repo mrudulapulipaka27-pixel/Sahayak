@@ -20,7 +20,7 @@ from PIL import Image, ImageDraw, ImageFont
 # The app tries these models in order until one works.
 MODELS = [
     m
-    for m in [os.environ.get("GEMINI_MODEL"), "gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash"]
+    for m in [os.environ.get("GEMINI_MODEL"), "gemini-flash-latest", "gemini-2.5-flash", "gemini-3.8-flash"]
     if m
 ]
 
